@@ -5,11 +5,11 @@
   
 		<autocomplete options="options" selected-item = "selectedValue"></autocomplete>
 		  
-		options is the data set which we wants to display in the Autocomplete
+		1)	options is the data set which we wants to display in the Autocomplete
   
-		selected-item(Model Value) is the user selected value from the Autocomplete
+		2)	selected-item(Model Value) is the user selected value from the Autocomplete
 
-		Declare $scope.selectedValue = null;
+		3)	Declare $scope.selectedValue = null in the controller which you are using this directive
   
   
   Dependency File..
