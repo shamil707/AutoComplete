@@ -1,9 +1,9 @@
   
   Information -
   
-  		To use the feature please add the below line in html
+  		To use the feature please add the below line in html -
   
-			->  	<autocomplete options="options" selected-item = "selectedValue"></autocomplete>
+			  	<autocomplete options="options" selected-item = "selectedValue"></autocomplete>
 		  
 		options is the data set which we wants to display in the Autocomplete
   
