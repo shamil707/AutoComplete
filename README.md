@@ -1,22 +1,22 @@
   
   Information -
   
-  To use the feature please add the below line in html
+  		To use the feature please add the below line in html
   
-  <autocomplete options="options" selected-item = "selectedValue"></autocomplete>
-  
-  options is the data set which we wants to display in the Autocomplete
-  
-  selectedValue is the user selected value from the Autocomplete
+		<autocomplete options="options" selected-item = "selectedValue"></autocomplete>
+		  
+		options is the data set which we wants to display in the Autocomplete
+		  
+		selectedValue is the user selected value from the Autocomplete
   
   
   Dependency File..
   
-  Template url - autoSuggetions.html
-  
-  Directive    - autocomplete.directive.js
-  
-  css          - app.css
+		 Template url - autoSuggetions.html
+		  
+		 Directive    - autocomplete.directive.js
+		  
+		 css          - app.css
   
   Installation - 
   
