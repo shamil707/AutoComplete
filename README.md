@@ -7,7 +7,9 @@
 		  
 		options is the data set which we wants to display in the Autocomplete
 		  
-		selectedValue is the user selected value from the Autocomplete
+		selected-item(Model Value) is the user selected value from the Autocomplete
+		
+		Declare $scope.selectedValue = null;
   
   
   Dependency File..
