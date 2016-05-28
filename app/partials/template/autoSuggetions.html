@@ -1,0 +1,50 @@
+<div class="centerx">
+    
+    <div class="auto-suggetion" ng-class="selectedItem ? 'custom-bg-selected':''" ng-click = "showSearch = !showSearch"> <span ng-if = "!selectedItem"> Select Driver to pair </span>{{selectedItem.number}}</div>
+    
+    
+    <input class="auto-suggetion-search"  ng-show = "showSearch" type = "text" ng-model="search"/>
+    
+    <div  class="div-auto-suggetion-wrapper" ng-if = "search.length > 0 && showSearch">
+        
+        <div  ng-class="showToolTip ? 'custom-bg' : ''" ng-mouseover = "setPositionAttribute($event)" ng-mouseenter= "showToolTip = true"  ng-click="selected(item)" ng-mouseleave="showToolTip = false"  class="div-auto-suggetion" ng-if = "search.length > 0"  ng-repeat = "item in options | filter:search">
+            
+            <div class="auto-suggetion-mouse-hover"   ng-if="showToolTip" ng-style="{'top': top,'left' : left}">
+                
+                <label>Driver</label>
+                
+                <div class="auto-suggetion-mouse-hover-block">
+                    <div class="left-block">
+                        <img src="{{item.profileImage}}" />
+                    </div>
+                    <div class="right-block">
+                      <div>{{item.name}}</div> 
+                      <div>{{item.mobileNumber}}</div>
+                    </div>
+                </div>
+                
+                
+                <label>vehicle</label>
+                
+                <div class="auto-suggetion-mouse-hover-block">
+                    <div class="left-block">
+                        <img src="{{item.carImage}}" />
+                    </div>
+                    <div class="right-block">
+                      <div>{{item.number}}</div> 
+                      <div>{{item.carName}}</div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            <span>{{item.name}}</span>   <span> / </span>   <span>{{item.number}}</span>
+        </div>
+
+    </div>
+       
+</div>
+
+
+

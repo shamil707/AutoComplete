@@ -1,0 +1,119 @@
+/* app css stylesheet */
+
+.centerx{
+    margin:auto;
+    width:50%;
+    font-weight: bold;
+}
+.auto-suggetion{
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    -webkit-appearance: none;
+    background-image: url('assets/downArrow.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30px;
+    padding-right: 20px;
+    border: .5px solid #888686;    
+}
+
+.auto-suggetion-search{
+    width: 100%;
+    padding: 8px;
+    height: 40px;
+    background-color: rgb(226,233,240);
+    -webkit-appearance: none;
+    background-image: url('assets/search.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30px;
+    padding-right: 20px;
+    border: .5px solid #888686;
+}
+
+.div-auto-suggetion{
+  width: 100%;
+  padding: 8px;
+  height: 40px;
+  background-color: rgb(197,210,224);
+  padding-right: 20px;
+  border: .5px solid #888686;    
+}
+
+.div-auto-suggetion-wrapper{
+  width: 100%;
+  height: 202px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+    
+    
+::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    margin-right: 10px;
+    width:2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width:2px;
+    margin-right: 10px;
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.auto-suggetion-mouse-hover{
+  position : absolute;
+  margin-top:10px;
+  width:350px;
+  height:auto;
+  background: rgb(54, 65, 80);
+  color:#fff;
+  padding:10px;
+  z-index: 100;
+}
+
+
+
+
+.auto-suggetion-mouse-hover-block {
+  margin-bottom : 10px;
+  width:100%;
+}
+
+.auto-suggetion-mouse-hover-block .left-block {
+  width:  20%;
+  display: inline-block;
+}
+
+
+
+.auto-suggetion-mouse-hover-block .right-block {
+  width:78%;
+  display: inline-block;
+  float:right;
+  padding-left:5px;
+}
+
+img{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+}
+
+
+.custom-bg{
+  background: rgb(54, 65, 80) !important; 
+  boder:2px solid red;
+  color:#fff;
+}
+  
+.custom-bg-selected{  
+   background-color: rgb(197,210,224);
+}
